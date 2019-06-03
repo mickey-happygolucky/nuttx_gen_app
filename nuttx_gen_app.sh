@@ -225,6 +225,7 @@ int ${APP_NAME}_main(int argc, char *argv[])
 #endif
 {
     printf("Hello, world\n");
+    return 0;
 }
 EOF
     echo "${file} created."
